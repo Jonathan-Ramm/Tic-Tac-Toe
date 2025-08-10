@@ -27,7 +27,7 @@ class GameUI:
         self.bot = False
         self.winner = None
 
-        # Buttons (jetzt vertauscht: links Restart, rechts Auto Solver)
+        # Buttons
         self.restart_btn = pygame.Rect(10, self.HEIGHT - 60, 180, 40)
         self.bot_btn = pygame.Rect(210, self.HEIGHT - 60, 180, 40)
 
